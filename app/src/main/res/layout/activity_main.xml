@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_to_flowlayout"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="展示流式布局"/>
+
+    <Button
+        android:id="@+id/bt_to_colortrack"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:text="展示ColorTrackTextView"/>
+
+    <Button
+        android:id="@+id/bt_to_listviewpager"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:text="展示listviewpager"/>
+
+    <Button
+        android:id="@+id/bt_to_photoview"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:text="展示photoview"/>
+
+    <Button
+        android:id="@+id/bt_to_multitouchview"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:text="展示multitouchview"/>
+
+    <Button
+        android:id="@+id/bt_to_nestedscrollview"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:text="展示nestedscrollview"/>
+
+    <Button
+        android:id="@+id/bt_to_item_decoration"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:text="展示recyclerview的itemDecoration"/>
+
+    <Button
+        android:id="@+id/bt_to_slide_card"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:text="展示slidecard"/>
+
+</LinearLayout>
